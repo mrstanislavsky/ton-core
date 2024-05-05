@@ -7,10 +7,10 @@
  */
 
 import { Address } from "./Address";
-
+    
 describe('Address', () => {
     it('should parse addresses in various forms', () => {
-        let address1 = Address.parseFriendly('0QAs9VlT6S776tq3unJcP5Ogsj-ELLunLXuOb1EKcOQi4-QO');
+        let address1 = Address.parseFriendly('a3935861f79daf59a13d6d182e1640210c02f98e3df18fda74b8f5ab141abf18');
         let address2 = Address.parseFriendly('kQAs9VlT6S776tq3unJcP5Ogsj-ELLunLXuOb1EKcOQi47nL');
         let address3 = Address.parseRaw('0:2cf55953e92efbeadab7ba725c3f93a0b23f842cbba72d7b8e6f510a70e422e3');
         let address4 = Address.parse('-1:3333333333333333333333333333333333333333333333333333333333333333');
